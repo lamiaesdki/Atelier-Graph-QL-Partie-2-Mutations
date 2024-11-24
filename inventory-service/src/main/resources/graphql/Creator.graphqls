@@ -1,0 +1,6 @@
+type Creator {
+    id: Float
+    name: String
+    email: String
+    videos: [Video]
+}

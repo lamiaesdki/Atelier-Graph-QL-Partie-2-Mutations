@@ -1,0 +1,7 @@
+input VideoRequest {
+    name: String!
+    url: String!
+    description: String
+    datePublication: String!  # Date is now a String
+    creator: CreatorRequest!
+}
