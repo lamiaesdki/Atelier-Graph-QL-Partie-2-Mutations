@@ -38,7 +38,7 @@ public class VideoMapper {
                 .name(videoRequest.getName())
                 .url(videoRequest.getUrl())
                 .description(videoRequest.getDescription())  // Description is optional
-                .datePublication(parsedDate)  // Now assigning the parsed Date
+                .datePublication(videoRequest.getDatePublication())  // Now assigning the parsed Date
                 .creator(null)  // Creator will be set in the controller, don't need to set it here
                 .build();
     }

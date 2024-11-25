@@ -21,7 +21,7 @@ public class Video {
     private String name;
     private String url;
     private String description;
-    private Date datePublication;
+    private String datePublication;
     @ManyToOne(fetch = FetchType.EAGER)
     private Creator creator;
 

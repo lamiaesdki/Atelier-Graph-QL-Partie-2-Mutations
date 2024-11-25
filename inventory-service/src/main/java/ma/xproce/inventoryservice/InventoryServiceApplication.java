@@ -37,21 +37,21 @@ public class InventoryServiceApplication {
                             .name("vEducation")
                             .url("vEducation.com")
                             .description("looool")
-                            .datePublication(new Date())
+                            .datePublication("20/02/2020")
                             .creator(creatorList.get(0)) // Assigning creator
                             .build(),
                     Video.builder()
                             .name("vGaming")
                             .url("vEGaming.com")
                             .description("looool")
-                            .datePublication(new Date())
+                            .datePublication("28/01/2011")
                             .creator(creatorList.get(1)) // Assigning creator
                             .build(),
                     Video.builder()
                             .name("vEntertainment")
                             .url("vEntertainment.com")
                             .description("looool")
-                            .datePublication(new Date())
+                            .datePublication("25/02/2022")
                             .creator(creatorList.get(2)) // Assigning creator
                             .build()
             );
